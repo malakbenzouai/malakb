@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+ }
+ header{
+    height: 100vh;
+    position: relative;
+    background:linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+    ),
+    url("image22.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    font-size: 3rem;}
+
+h1{
+    font-size: 52px;
+    margin-bottom: 10px;
+    line-height: 1.05;
+}
+h2{
+    font-size: 44px;
+    margin-bottom: 48px;
+}
+p{
+    font-size: 20px;
+    color: #ffff;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+
+
+.header-container{
+    width: 1200px;
+    position: fixed ;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding-left: 2rem;
+    margin-top: 4rem;
+    margin-left: 50px;
+}
+
+
+
